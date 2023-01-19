@@ -1,22 +1,13 @@
-.yuxaridiv {
-    height: 36px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    border: 1px solid black;
-    background-color: white;
-}
-
 .bigdiv {
     width: 720px;
     margin: auto;
     border: 1px solid black;
-    height: 456px;
+    height: 480px;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 80px;
     background-color: white;
     border: none;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-bottom: 60px;
 }
 
 .loginqrcode {
@@ -27,22 +18,28 @@
     font-size: 15px;
 }
 
-.login{
+.login {
     margin-right: 15px;
     border-bottom: 4px solid #ee8208;
     border-radius: 1px;
     line-height: 49px;
 }
 
-.qrcode{
+.login:hover {
+    cursor: pointer;
+
+}
+
+.qrcode {
     color: rgb(128 77 77);
 }
 
-.qrcode:hover{
+.qrcode:hover {
     border-bottom: 4px solid #666;
     color: rgb(128 77 77);
     border-radius: 1px;
     line-height: 49px;
+    cursor: pointer;
 }
 
 .buttonbir {
@@ -74,7 +71,7 @@
     border-radius: 4px;
 }
 
-.hr{
+.hr {
     border: 1px solid #ebe7e7;
 }
 
@@ -105,8 +102,9 @@
     background-position-x: 50%;
     background-position-y: -3412px;
     background-repeat: no-repeat;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    background-color: rgb(249, 235, 210);
 }
 
 .buttonbirdiv {
@@ -136,7 +134,7 @@
 
 }
 
-.yandivler{
+.yandivler {
     background-color: #ddd;
     height: 1px;
     width: 17%;
@@ -150,7 +148,7 @@
     margin: 0 auto 10px auto;
 }
 
-.registerbutton{
+.registerbutton {
     color: #666;
     width: 100%;
     margin: auto;
@@ -160,18 +158,127 @@
     height: 32px;
     border-radius: 16px;
     border: #666;
-    color: #666;}
-
-.divlerarasi{
     color: #666;
 }
 
-.logolar{
+.divlerarasi {
+    color: #666;
+}
+
+.logolar {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-img{
+img {
     margin-right: 20px;
+}
+
+.buttonabir {
+    text-decoration: none;
+    color: #666;
+}
+
+.buttonaiki {
+    text-decoration: none;
+    color: white;
+}
+
+.yuxaridivsol {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+
+.yuxaridivsag {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+
+}
+
+.yuxaribigdiv {
+    height: 36px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 13px;
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.bosluqlar{
+    margin-right: 30px;
+    color: #2c2d2e;
+}
+
+.bosluqlar:hover{
+    background-color: #d0d0d3;
+    height: 36px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.bosluqlarmail{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.bosluqlarmail:hover{
+    
+    background-color: #d0d0d3;
+    height: 36px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.asagidiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.altyuxaridiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    color: #666;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.ikiminalti{
+    display: flex;
+    justify-content: center;
+    color: #666;
+    font-size: 12px;
+}
+
+.bosluqlariki{
+    margin-right: 15px;
+}
+
+.bosluqlariki:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.bosluqlarikienglish{
+    margin-right: 15px;
+
 }
